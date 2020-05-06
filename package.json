@@ -20,13 +20,11 @@
     "react-is": "^16.13.1",
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
-    "styled-components": "^5.1.0",
     "tiny-warning": "^1.0.3",
     "webpack": "^v5.0.0-beta.16"
   },
   "devDependencies": {
     "@types/react-is": "16.7.1",
-    "@types/styled-components": "5.1.0",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
     "css-loader": "^3.5.3",

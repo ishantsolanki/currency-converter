@@ -1,5 +1,10 @@
-import styled from 'styled-components';
+import { makeStyles } from '@material-ui/core/styles';
 
-export const StyledContainer = styled.div`
-  color: red;
-`;
+const useStyles = makeStyles({
+  root: {
+    maxWidth: 400,
+    color: 'red',
+  }
+});
+
+export default useStyles;
