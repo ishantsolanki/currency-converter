@@ -62,6 +62,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:18.1.0"
       ],
       [
+        "eslint-import-resolver-node",
+        "npm:0.3.3"
+      ],
+      [
         "eslint-plugin-import",
         "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:2.20.2"
       ],
@@ -137,6 +141,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["css-loader", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:3.5.3"],
             ["eslint", "npm:6.8.0"],
             ["eslint-config-airbnb", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:18.1.0"],
+            ["eslint-import-resolver-node", "npm:0.3.3"],
             ["eslint-plugin-import", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:2.20.2"],
             ["eslint-plugin-jsx-a11y", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:6.2.3"],
             ["eslint-plugin-react", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:7.19.0"],
@@ -2196,6 +2201,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["css-loader", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:3.5.3"],
             ["eslint", "npm:6.8.0"],
             ["eslint-config-airbnb", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:18.1.0"],
+            ["eslint-import-resolver-node", "npm:0.3.3"],
             ["eslint-plugin-import", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:2.20.2"],
             ["eslint-plugin-jsx-a11y", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:6.2.3"],
             ["eslint-plugin-react", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:7.19.0"],

@@ -19,6 +19,11 @@ module.exports = {
   settings: {
     react: {
       version: "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
     }
   },
   "plugins": [
@@ -27,5 +32,6 @@ module.exports = {
   ],
   "rules": {
     "no-console": ["error"],
+    "react/jsx-filename-extension": "off",
   }
 };
