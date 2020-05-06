@@ -2163,6 +2163,7 @@ __metadata:
     react-redux: ^7.2.0
     redux: ^4.0.5
     styled-components: ^5.1.0
+    tiny-warning: ^1.0.3
     ts-loader: ^7.0.2
     typescript: ^3.8.3
     webpack: ^v5.0.0-beta.16
@@ -7796,7 +7797,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"tiny-warning@npm:^1.0.2":
+"tiny-warning@npm:^1.0.2, tiny-warning@npm:^1.0.3":
   version: 1.0.3
   resolution: "tiny-warning@npm:1.0.3"
   checksum: 3/6cf9f66cb765b893976b8cd1c1310338861f30fb04d02ef2c8e0a748cbc2ed5acd8bb1954b78c15f640ad4116def67134d7d705f2a0c9bf27e6e2eb3e92bff29
