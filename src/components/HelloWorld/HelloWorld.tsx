@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HelloWorld = () => (
+const HelloWorld: React.FC = () => (
   <div className="container">
     I am styled within the components scope
   </div>
