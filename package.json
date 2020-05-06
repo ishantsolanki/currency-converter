@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.9.13",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
     "@yarnpkg/pnpify": "^2.0.0-rc.22",
@@ -20,6 +21,7 @@
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
     "styled-components": "^5.1.0",
+    "tiny-warning": "^1.0.3",
     "webpack": "^v5.0.0-beta.16"
   },
   "devDependencies": {
