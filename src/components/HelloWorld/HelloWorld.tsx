@@ -1,9 +1,12 @@
 import React from 'react';
+import {
+  StyledContainer
+} from './Styles';
 
 const HelloWorld: React.FC = () => (
-  <div className="container">
+  <StyledContainer>
     I am styled within the components scope
-  </div>
+  </StyledContainer>
 );
 
 export default HelloWorld;
