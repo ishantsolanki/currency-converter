@@ -2,3 +2,4 @@
 !.yarn/cache
 !.yarn/releases
 !.yarn/plugins
+yarn-error.log
