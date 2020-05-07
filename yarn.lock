@@ -1957,7 +1957,7 @@ __metadata:
     react-redux: ^7.2.0
     redux: ^4.0.5
     tiny-warning: ^1.0.3
-    ts-loader: ^7.0.2
+    ts-loader: ^7.0.3
     typescript: ^3.8.3
     webpack: ^v5.0.0-beta.16
     webpack-cli: ^3.3.11
@@ -7667,9 +7667,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"ts-loader@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "ts-loader@npm:7.0.2"
+"ts-loader@npm:^7.0.3":
+  version: 7.0.3
+  resolution: "ts-loader@npm:7.0.3"
   dependencies:
     chalk: ^2.3.0
     enhanced-resolve: ^4.0.0
@@ -7678,7 +7678,7 @@ fsevents@^1.2.7:
     semver: ^6.0.0
   peerDependencies:
     typescript: "*"
-  checksum: 3/04df9c12947635002b170c45d835b1e9c63a21afe26282b862cfa0ceed7f5a6ec0b538bd64c7ff8e157a04f063510f2f2cfb09780e6094fdbdbd427c59c97eef
+  checksum: 3/372d1283f44e1265e67182e593bedb94f35fbec070d19e75e7bef8aa01fc39724d50ca61c2c7de48292ec4f8c5bd582a32e492a517202ba9599133aa89db334d
   languageName: node
   linkType: hard
 
