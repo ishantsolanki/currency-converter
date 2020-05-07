@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --open",
-    "serve": "yarn node index.js"
+    "serve": "yarn node server/index.js"
   },
   "author": "",
   "license": "ISC",
