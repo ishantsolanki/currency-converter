@@ -4,7 +4,8 @@
   "description": "Currency converter with react + redux",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "build": "yarn webpack",
+    "serve": "yarn webpack && yarn nodemon server/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,11 @@
     "@yarnpkg/pnpify": "^2.0.0-rc.22",
     "eslint-import-resolver-node": "^0.3.3",
     "html-webpack-plugin": "^4.3.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-logger": "^3.2.1",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0",
     "navi": "^0.14.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -26,6 +32,13 @@
     "webpack": "^v5.0.0-beta.16"
   },
   "devDependencies": {
+    "@types/koa": "2.11.3",
+    "@types/koa-bodyparser": "4.3.0",
+    "@types/koa-cors": "0.0.0",
+    "@types/koa-logger": "3.1.1",
+    "@types/koa-mount": "4.0.0",
+    "@types/koa-static": "4.0.1",
+    "@types/nodemon": "1.19.0",
     "@types/react-is": "16.7.1",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
@@ -36,7 +49,9 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^4.0.0",
+    "koa": "^2.11.0",
     "mini-css-extract-plugin": "^0.9.0",
+    "nodemon": "^2.0.3",
     "ts-loader": "^7.0.3",
     "typescript": "^3.8.3",
     "webpack-cli": "^3.3.11",
