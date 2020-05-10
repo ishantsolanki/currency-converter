@@ -4,6 +4,7 @@
   "description": "Currency converter with react + redux",
   "private": true,
   "scripts": {
+    "build": "yarn webpack",
     "serve": "yarn webpack && yarn nodemon server/index.js"
   },
   "author": "",
