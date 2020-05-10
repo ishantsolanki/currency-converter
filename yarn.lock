@@ -458,15 +458,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/koa-router@npm:7.4.0":
-  version: 7.4.0
-  resolution: "@types/koa-router@npm:7.4.0"
-  dependencies:
-    "@types/koa": "*"
-  checksum: 3/ae02965a3873adcaced41fd8cd00a9b7240d01a61bdb1f0af0c977496f9f56af8ca6b2dc2bc7bcfbe025b3a04b9905a62eea29e17a0ea085aeaf9826e8bff254
-  languageName: node
-  linkType: hard
-
 "@types/koa-send@npm:*":
   version: 4.1.2
   resolution: "@types/koa-send@npm:4.1.2"
@@ -2316,7 +2307,6 @@ __metadata:
     "@types/koa-cors": 0.0.0
     "@types/koa-logger": 3.1.1
     "@types/koa-mount": 4.0.0
-    "@types/koa-router": 7.4.0
     "@types/koa-static": 4.0.1
     "@types/nodemon": 1.19.0
     "@types/react": ^16.9.34
@@ -2334,13 +2324,11 @@ __metadata:
     eslint-plugin-react: ^7.19.0
     eslint-plugin-react-hooks: ^4.0.0
     html-webpack-plugin: ^4.3.0
-    http-status: ^1.4.2
     koa: ^2.11.0
     koa-bodyparser: ^4.3.0
     koa-cors: ^0.0.16
     koa-logger: ^3.2.1
     koa-mount: ^4.0.0
-    koa-router: ^8.0.8
     koa-static: ^5.0.0
     mini-css-extract-plugin: ^0.9.0
     navi: ^0.14.0
@@ -4272,7 +4260,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"http-errors@npm:1.7.3, http-errors@npm:^1.6.3, http-errors@npm:^1.7.3, http-errors@npm:~1.7.2":
+"http-errors@npm:1.7.3, http-errors@npm:^1.6.3, http-errors@npm:~1.7.2":
   version: 1.7.3
   resolution: "http-errors@npm:1.7.3"
   dependencies:
@@ -4335,13 +4323,6 @@ fsevents@~2.1.2:
     jsprim: ^1.2.2
     sshpk: ^1.7.0
   checksum: 3/d28227eed37cb0dae0e76c46b2a5e611c678808433e5642238f17dba7f2c9c8f8d1646122d57ec1a110ecc7e8b9f5b7aa0462f1e2a5fa3b41f2fca5a69af7edf
-  languageName: node
-  linkType: hard
-
-"http-status@npm:^1.4.2":
-  version: 1.4.2
-  resolution: "http-status@npm:1.4.2"
-  checksum: 3/c7c50d558646ac64101aa318d67b4a6e61e09928cbac4088733201b66e902294dd73d3b8062dc38e854495cca16f86bab783e1291c8c6051b991a705d1f227f9
   languageName: node
   linkType: hard
 
@@ -4958,13 +4939,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"isarray@npm:0.0.1":
-  version: 0.0.1
-  resolution: "isarray@npm:0.0.1"
-  checksum: 3/daeda3c23646200b0b464b7a9030d10008d7701fc6b7a1b45cafe42b4f4d2dde20835b56f19a49e04bb218245b7f7a2bcc6d0f696cff3711e4eddaa2031c611f
-  languageName: node
-  linkType: hard
-
 "isarray@npm:1.0.0, isarray@npm:^1.0.0, isarray@npm:~1.0.0":
   version: 1.0.0
   resolution: "isarray@npm:1.0.0"
@@ -5356,20 +5330,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"koa-router@npm:^8.0.8":
-  version: 8.0.8
-  resolution: "koa-router@npm:8.0.8"
-  dependencies:
-    debug: ^4.1.1
-    http-errors: ^1.7.3
-    koa-compose: ^4.1.0
-    methods: ^1.1.2
-    path-to-regexp: 1.x
-    urijs: ^1.19.2
-  checksum: 3/cbfbcc412bff73b55549b46ea6b7392d3f91465e4deeb66257bf6a18dee429a4c917c473483e1cdcb78fac0dc8570411b9c88d235f8600247d674dbdf5c61e54
-  languageName: node
-  linkType: hard
-
 "koa-send@npm:^5.0.0":
   version: 5.0.0
   resolution: "koa-send@npm:5.0.0"
@@ -5681,7 +5641,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"methods@npm:^1.1.2, methods@npm:~1.1.2":
+"methods@npm:~1.1.2":
   version: 1.1.2
   resolution: "methods@npm:1.1.2"
   checksum: 3/450e4ea0fd4a0f3de8c0593d753c7d6c8f2ee49766f5ef35c68cc2ac41699d5e295b7d6330fc2b7271b8569a07857e3eb0b5df0599a353c5808265b4b5066168
@@ -6758,15 +6718,6 @@ fsevents@~2.1.2:
   version: 0.1.7
   resolution: "path-to-regexp@npm:0.1.7"
   checksum: 3/342fdb0ca48415d6eccdbe6d4180fd0fa4786ccc96ab3f74fcdf7acfc99e075af25e6077c8086c341dcfb4f5f84401ecd21e6cd7b24e0c3b556fb7ffb2570da7
-  languageName: node
-  linkType: hard
-
-"path-to-regexp@npm:1.x":
-  version: 1.8.0
-  resolution: "path-to-regexp@npm:1.8.0"
-  dependencies:
-    isarray: 0.0.1
-  checksum: 3/4c0d9aaf3fc55db0b2d9aab379856acbf4e437f2252bbc2a178aec9f707c8457f8084ea6243a80e0b37c8c1c20d23e918cd43e772a7e71142a8ad67af699686b
   languageName: node
   linkType: hard
 
@@ -8933,13 +8884,6 @@ typescript@^3.8.3:
   dependencies:
     punycode: ^2.1.0
   checksum: 3/651a49f55d6d65a15e589ed5ffa23bf99e495699e246c1c3fecbe6f232c675589fdae4e93a88608525ff130f39b6fb854c19982820813a2d94c005c11eafd7ed
-  languageName: node
-  linkType: hard
-
-"urijs@npm:^1.19.2":
-  version: 1.19.2
-  resolution: "urijs@npm:1.19.2"
-  checksum: 3/de6b943c354b092be71e10c5c16d9d9b67186d6283031f55382d11507dc8a7748001b5aa8136f515f746f2f4786d7f4e43e17c23ba661abcc7dbbbe254924feb
   languageName: node
   linkType: hard
 

@@ -54,10 +54,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:4.0.0"
       ],
       [
-        "@types/koa-router",
-        "npm:7.4.0"
-      ],
-      [
         "@types/koa-static",
         "npm:4.0.1"
       ],
@@ -126,10 +122,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:4.3.0"
       ],
       [
-        "http-status",
-        "npm:1.4.2"
-      ],
-      [
         "koa",
         "npm:2.11.0"
       ],
@@ -148,10 +140,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       [
         "koa-mount",
         "npm:4.0.0"
-      ],
-      [
-        "koa-router",
-        "npm:8.0.8"
       ],
       [
         "koa-static",
@@ -231,7 +219,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/koa-cors", "npm:0.0.0"],
             ["@types/koa-logger", "npm:3.1.1"],
             ["@types/koa-mount", "npm:4.0.0"],
-            ["@types/koa-router", "npm:7.4.0"],
             ["@types/koa-static", "npm:4.0.1"],
             ["@types/nodemon", "npm:1.19.0"],
             ["@types/react", "npm:16.9.34"],
@@ -249,13 +236,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:7.19.0"],
             ["eslint-plugin-react-hooks", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:4.0.0"],
             ["html-webpack-plugin", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:4.3.0"],
-            ["http-status", "npm:1.4.2"],
             ["koa", "npm:2.11.0"],
             ["koa-bodyparser", "npm:4.3.0"],
             ["koa-cors", "npm:0.0.16"],
             ["koa-logger", "npm:3.2.1"],
             ["koa-mount", "npm:4.0.0"],
-            ["koa-router", "npm:8.0.8"],
             ["koa-static", "npm:5.0.0"],
             ["mini-css-extract-plugin", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:0.9.0"],
             ["navi", "npm:0.14.0"],
@@ -808,16 +793,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-koa-mount-npm-4.0.0-77a101a811-3.zip/node_modules/@types/koa-mount/",
           "packageDependencies": [
             ["@types/koa-mount", "npm:4.0.0"],
-            ["@types/koa", "npm:2.11.3"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["@types/koa-router", [
-        ["npm:7.4.0", {
-          "packageLocation": "./.yarn/cache/@types-koa-router-npm-7.4.0-78fd8cbf81-3.zip/node_modules/@types/koa-router/",
-          "packageDependencies": [
-            ["@types/koa-router", "npm:7.4.0"],
             ["@types/koa", "npm:2.11.3"]
           ],
           "linkType": "HARD",
@@ -2919,7 +2894,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/koa-cors", "npm:0.0.0"],
             ["@types/koa-logger", "npm:3.1.1"],
             ["@types/koa-mount", "npm:4.0.0"],
-            ["@types/koa-router", "npm:7.4.0"],
             ["@types/koa-static", "npm:4.0.1"],
             ["@types/nodemon", "npm:1.19.0"],
             ["@types/react", "npm:16.9.34"],
@@ -2937,13 +2911,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:7.19.0"],
             ["eslint-plugin-react-hooks", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:4.0.0"],
             ["html-webpack-plugin", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:4.3.0"],
-            ["http-status", "npm:1.4.2"],
             ["koa", "npm:2.11.0"],
             ["koa-bodyparser", "npm:4.3.0"],
             ["koa-cors", "npm:0.0.16"],
             ["koa-logger", "npm:3.2.1"],
             ["koa-mount", "npm:4.0.0"],
-            ["koa-router", "npm:8.0.8"],
             ["koa-static", "npm:5.0.0"],
             ["mini-css-extract-plugin", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:0.9.0"],
             ["navi", "npm:0.14.0"],
@@ -5166,15 +5138,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["http-status", [
-        ["npm:1.4.2", {
-          "packageLocation": "./.yarn/cache/http-status-npm-1.4.2-c65e857c52-3.zip/node_modules/http-status/",
-          "packageDependencies": [
-            ["http-status", "npm:1.4.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["http2-wrapper", [
         ["npm:1.0.0-beta.4.5", {
           "packageLocation": "./.yarn/cache/http2-wrapper-npm-1.0.0-beta.4.5-dfa3bfa573-3.zip/node_modules/http2-wrapper/",
@@ -5881,13 +5844,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["isarray", [
-        ["npm:0.0.1", {
-          "packageLocation": "./.yarn/cache/isarray-npm-0.0.1-92e37e0a70-3.zip/node_modules/isarray/",
-          "packageDependencies": [
-            ["isarray", "npm:0.0.1"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:1.0.0", {
           "packageLocation": "./.yarn/cache/isarray-npm-1.0.0-db4f547720-3.zip/node_modules/isarray/",
           "packageDependencies": [
@@ -6352,21 +6308,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["koa-mount", "npm:4.0.0"],
             ["debug", "virtual:d27045f313cae7cbc212b229738d5843f6d2265eba3ea36069f78075a79d301bc17e702a21a7b811ca9aa59de4cb7943fb27cda91a0e7d8a8ad547668124b185#npm:4.1.1"],
             ["koa-compose", "npm:4.1.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["koa-router", [
-        ["npm:8.0.8", {
-          "packageLocation": "./.yarn/cache/koa-router-npm-8.0.8-d57cfdb879-3.zip/node_modules/koa-router/",
-          "packageDependencies": [
-            ["koa-router", "npm:8.0.8"],
-            ["debug", "virtual:d27045f313cae7cbc212b229738d5843f6d2265eba3ea36069f78075a79d301bc17e702a21a7b811ca9aa59de4cb7943fb27cda91a0e7d8a8ad547668124b185#npm:4.1.1"],
-            ["http-errors", "npm:1.7.3"],
-            ["koa-compose", "npm:4.1.0"],
-            ["methods", "npm:1.1.2"],
-            ["path-to-regexp", "npm:1.8.0"],
-            ["urijs", "npm:1.19.2"]
           ],
           "linkType": "HARD",
         }]
@@ -7872,14 +7813,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/path-to-regexp-npm-0.1.7-2605347373-3.zip/node_modules/path-to-regexp/",
           "packageDependencies": [
             ["path-to-regexp", "npm:0.1.7"]
-          ],
-          "linkType": "HARD",
-        }],
-        ["npm:1.8.0", {
-          "packageLocation": "./.yarn/cache/path-to-regexp-npm-1.8.0-a1904f5c44-3.zip/node_modules/path-to-regexp/",
-          "packageDependencies": [
-            ["path-to-regexp", "npm:1.8.0"],
-            ["isarray", "npm:0.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -10293,15 +10226,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["uri-js", "npm:4.2.2"],
             ["punycode", "npm:2.1.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["urijs", [
-        ["npm:1.19.2", {
-          "packageLocation": "./.yarn/cache/urijs-npm-1.19.2-785622dfc6-3.zip/node_modules/urijs/",
-          "packageDependencies": [
-            ["urijs", "npm:1.19.2"]
           ],
           "linkType": "HARD",
         }]
