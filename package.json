@@ -11,8 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.9.13",
-    "@types/react": "^16.9.34",
-    "@types/react-dom": "^16.9.7",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
     "@yarnpkg/pnpify": "^2.0.0-rc.22",
     "eslint-import-resolver-node": "^0.3.3",
     "html-webpack-plugin": "^4.3.0",
@@ -55,6 +55,6 @@
     "ts-loader": "^7.0.3",
     "typescript": "^3.8.3",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.11.0"
   }
 }
