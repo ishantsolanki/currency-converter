@@ -4,7 +4,8 @@
   "description": "Currency converter with react + redux",
   "private": true,
   "scripts": {
-    "build": "yarn webpack",
+    "build": "yarn run webpack",
+    "build:prod": "yarn run webpack --mode production",
     "dev": "yarn webpack-dev-server",
     "serve": "yarn webpack && yarn nodemon server/index.js"
   },
