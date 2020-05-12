@@ -27,7 +27,7 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: ['cache-loader', 'ts-loader'],
+        use: 'ts-loader',
         include: path.resolve(__dirname, 'src'),
         exclude: /\.yarn/,
       },
