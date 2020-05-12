@@ -86,6 +86,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:2.0.0-rc.22"
       ],
       [
+        "cache-loader",
+        "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:4.1.0"
+      ],
+      [
         "clean-webpack-plugin",
         "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:3.0.0"
       ],
@@ -231,6 +235,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:2.32.0"],
             ["@typescript-eslint/parser", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:2.32.0"],
             ["@yarnpkg/pnpify", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:2.0.0-rc.22"],
+            ["cache-loader", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:4.1.0"],
             ["clean-webpack-plugin", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:3.0.0"],
             ["css-loader", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:3.5.3"],
             ["eslint", "npm:6.8.0"],
@@ -2105,6 +2110,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["buffer-json", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/buffer-json-npm-2.0.0-da08ae4b55-3.zip/node_modules/buffer-json/",
+          "packageDependencies": [
+            ["buffer-json", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["bytes", [
         ["npm:3.0.0", {
           "packageLocation": "./.yarn/cache/bytes-npm-3.0.0-19be09472d-3.zip/node_modules/bytes/",
@@ -2173,6 +2187,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cache-content-type", "npm:1.0.1"],
             ["mime-types", "npm:2.1.27"],
             ["ylru", "npm:1.2.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["cache-loader", [
+        ["virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:4.1.0", {
+          "packageLocation": "./.yarn/$$virtual/cache-loader-virtual-874be8c08f/0/cache/cache-loader-npm-4.1.0-82c3da90d8-3.zip/node_modules/cache-loader/",
+          "packageDependencies": [
+            ["cache-loader", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:4.1.0"],
+            ["buffer-json", "npm:2.0.0"],
+            ["find-cache-dir", "npm:3.3.1"],
+            ["loader-utils", "npm:1.4.0"],
+            ["mkdirp", "npm:0.5.5"],
+            ["neo-async", "npm:2.6.1"],
+            ["schema-utils", "npm:2.6.6"],
+            ["webpack", "npm:5.0.0-beta.16"]
+          ],
+          "packagePeers": [
+            "webpack"
           ],
           "linkType": "HARD",
         }]
@@ -2902,6 +2935,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:2.32.0"],
             ["@typescript-eslint/parser", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:2.32.0"],
             ["@yarnpkg/pnpify", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:2.0.0-rc.22"],
+            ["cache-loader", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:4.1.0"],
             ["clean-webpack-plugin", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:3.0.0"],
             ["css-loader", "virtual:b36ad9475efb8f88c5c587e4017a0d4aa1e0050caf22df727f2526c51a8a99162515d9f7ba8aae9189fb59a5fccb23ed6a796b30d4cc2082bc756831b9c1df07#npm:3.5.3"],
             ["eslint", "npm:6.8.0"],
