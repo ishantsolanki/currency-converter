@@ -643,7 +643,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack@npm:^4.41.8":
+"@types/webpack@npm:^4.4.31, @types/webpack@npm:^4.41.8":
   version: 4.41.12
   resolution: "@types/webpack@npm:4.41.12"
   dependencies:
@@ -1877,6 +1877,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clean-webpack-plugin@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "clean-webpack-plugin@npm:3.0.0"
+  dependencies:
+    "@types/webpack": ^4.4.31
+    del: ^4.1.1
+  peerDependencies:
+    webpack: "*"
+  checksum: 3/fc0fbd1c8e163b784209d51a5df4336ad359737f8b324697d33d1c484ee5c7efee9a1f9f18786860216019764f4a6e02e329e0410e3ab4d52e5e5b52a1038dfe
+  languageName: node
+  linkType: hard
+
 "cli-boxes@npm:^2.2.0":
   version: 2.2.0
   resolution: "cli-boxes@npm:2.2.0"
@@ -2314,6 +2326,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^2.31.0
     "@typescript-eslint/parser": ^2.31.0
     "@yarnpkg/pnpify": ^2.0.0-rc.22
+    clean-webpack-plugin: ^3.0.0
     css-loader: ^3.5.3
     eslint: ^6.8.0
     eslint-config-airbnb: ^18.1.0

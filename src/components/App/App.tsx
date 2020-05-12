@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-navi'
+import Container from '@material-ui/core/Container';
 
 const App: React.FC = () => (
-  <div>
+  <Container maxWidth="md">
+    <div>This is the first page!</div>
+
     <Link href="/second-page">Go to Second page</Link>
-    <div>Hello world</div>
-    <span>That awesome feeling</span>
-  </div>
+  </Container>
 );
 
 export default App;
