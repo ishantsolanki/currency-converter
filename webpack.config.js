@@ -16,7 +16,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
   ],
-  mode: process.env.NODE_ENV || 'development',
+  mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
