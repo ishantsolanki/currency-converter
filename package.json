@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "yarn webpack",
-    "dev": "yarn webpack -w",
+    "dev": "yarn webpack-dev-server",
     "serve": "yarn webpack && yarn nodemon server/index.js"
   },
   "author": "",
