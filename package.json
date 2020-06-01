@@ -27,7 +27,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-is": "^16.13.1",
-    "react-navi": "^0.14.3",
+    "react-navi": "^0.14.4",
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
     "tiny-warning": "^1.0.3",
